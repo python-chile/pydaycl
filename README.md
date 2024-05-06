@@ -15,7 +15,7 @@ Los puntos de entrada son los archivos:
 * valparaiso.html
 
 Las definiciones de las secciones en root se modifican en `"assets/sections"`. Si se quiere agregar o remover una sección, esto debe realizarse en `"assets/js/display.js"`.
-La definición de secciones en /{ciudad} se modifican en `"assets/sections/{ciudad}"`. Si se debe agregar/remover sección se realiza en `"assets/js/{ciudad}.js"`
+Las definiciones de las secciones en /{ciudad} se modifican en `"assets/sections/{ciudad}"`. Si se quiere agregar o remover una sección, se realiza en `"assets/js/{ciudad}.js"`
 
 Adición de logos de sponsors/otros se agregan en `"assets/logos"`
 
