@@ -1,18 +1,113 @@
 export default () => {
     const tbody = document.getElementById('schedule').tBodies[0];
     [
-    {block: ' 08:45 - 09:00', author: 'Milowan Martinez - Willy Bown', title: 'Métodos de aprendizaje para entrar a Python', photos: ['copiapo.svg'], level: '', category: 'Aprendizaje en Python'},
-    {block: ' 09:00 - 09:15', author: 'Luciano Berrios - Matias Rojas', title: 'Python como primer lenguaje de programación', photos: ['copiapo.svg'], level: '', category: 'Aprendizaje en Python'},
-    {block: ' 09:15 - 09:30 ', author: 'Daylan Collado', title: 'Mis errores programando', photos: ['copiapo.svg'], level: '', category: 'Experiencias personales'},
-    {block: ' 09:30 - 09:45 ', author: 'Sondra Guerra', title: 'Cómo python cambió mi perspectiva de la carrera', photos: ['copiapo.svg'], level: '', category: 'Experiencias personales'},
-    {block: ' 09:45 - 10:00 ', author: 'Michael Lopez - Ricardo Valdes', title: 'Aproximaciones al uso \'ético\' de chat gpt en el estudio', photos: ['copiapo.svg'], level: '', category: 'Ética & IA'},
-    {block: ' 10:00 - 10:15 ', author: 'Javiera Collinao - Constanza Tapia', title: 'Mi experiencia aprendiendo Python', photos: ['copiapo.svg'], level: '', category: 'Experiencias personales'},
-    {block: ' 10:15 - 10:30 ', author: 'Rodrigo Vera', title: 'La lógica en programación', photos: ['copiapo.svg'], level: '', category: 'Experiencias personales'},
-    {block: ' 10:30 - 10:45 ', author: 'Mauro Perez - Carlos Pizarro', title: 'Workshop videojuegos y Python', photos: ['copiapo.svg'], level: '', category: 'Python aplicado'},
-    {block: ' 10:45 - 11:00 ', author: 'Andres Ibañez', title: 'Ciencia de datos y python', photos: ['copiapo.svg'], level: '', category: 'Python aplicado'},
-    {block: ' 11:00 - 11:15 ', author: 'Katherina Ulloa', title: 'Por Definir', photos: ['copiapo.svg'], level: '', category: 'Experiencias personales'},
-    {block: ' 11:15 - 12:00 ', author: 'Luis Rojas', title: 'Redes convolucionales y Python', photos: ['copiapo.svg'], level: '', category: 'IA'},
-    {block: ' 12:00 - 12:45 ', author: 'Marco Arévalo', title: 'Python aplicado a IA generativa usando Google Vertex IA', photos: ['copiapo.svg'], level: '', category: 'IA'},
+    {
+        block: '09:00 - 09:15',
+        author: 'Milowan Martinez & Willy Bown',
+        title: 'Métodos de aprendizaje para entrar a Python',
+        photos: ['Milowan_Martinez.jpeg', 'Willy_Bown.jpeg'],
+        category: 'Aprendizaje'},
+    {
+        block: '09:15 - 09:30',
+        author: 'Luciano Berrios & Matias Rojas',
+        title: 'Python como primer lenguaje de programación',
+        photos: ['Luciano_Berrios.jpeg'],
+        category: 'Aprendizaje'},
+    {
+        block: '09:30 - 09:45',
+        author: 'Daylan Collado',
+        title: 'Mis errores programando',
+        photos: ['Daylan_Collado.jpeg'],
+        category: 'Experiencias'},
+    {
+        block: '09:45 - 10:00',
+        author: 'Sondra Guerra',
+        title: 'Cómo python cambió mi perspectiva de la carrera',
+        photos: ['Sondra_Guerra.jpeg'],
+        category: 'Experiencias'},
+    {
+        block: '10:00 - 10:15',
+        author: 'Martín Gómez',
+        title: 'Jugando con Python',
+        photos: ['Martin_Gomez.jpeg']},
+    {
+        block: '10:15 - 10:30',
+        author: 'Michael Lopez & Ricardo Valdes',
+        title: 'Aproximaciones al uso \'ético\' de chat gpt en el estudio',
+        photos: [],
+        category: 'Inteligencia Artificial'},
+    {
+        block: '10:30 - 10:45',
+        author: 'Javiera Collinao',
+        title: 'Mi experiencia aprendiendo Python',
+        photos: ['Javiera_Collinao.jpeg'],
+        category: 'Experiencias'},
+    {
+        block: '10:45 - 11:00',
+        author: 'Rodrigo Vera',
+        title: 'La lógica en programación',
+        photos: ['Rodrigo_Vera.jpeg'],
+        category: 'Aprendizaje'},
+    {
+        block: '11:00 - 11:15',
+        author: 'Francisca Muñoz',
+        title: 'Optimizando el desarrollo de software con Python y metodologías ágiles',
+        photos: ['Francisca_Munoz.jpeg'],
+        category: 'Optimización'},
+    {
+        block: '11:25 - 11:40',
+        author: 'Gabriela López',
+        title: 'Creación de ambientes digitales de aprendizaje',
+        photos: ['Gabriela_Lopez.jpeg'],
+        category: 'Aprendizaje'},
+    {
+        block: '11:40 - 11:55',
+        author: 'Luis Rojas',
+        title: 'Ciencia de datos y python',
+        photos: ['Andres_Ibanez.jpeg'],
+        category: 'Datos'},
+    {
+        block: '11:55 - 12:10',
+        author: 'Eduardo Espinoza Norambuena',
+        title: 'Aplicaciones móviles en Python',
+        photos: ['Eduardo_Espinoza.jpeg'],
+        category: 'Aplicaciones'},
+    {
+        block: '12:10 - 12:25',
+        author: 'Victor Valenzuela',
+        title: 'Representación de conocimiento en IA',
+        photos: ['Victor_Valenzuela.jpeg'],
+        category: 'Inteligencia Artificial'},
+    {
+        block: '12:25 - 12:45',
+        author: 'Lidia Moreno',
+        title: 'Sql injections, ¿qué son y cómo evitarlas?',
+        photos: [],
+        category: 'Base de datos'},
+    {
+        block: '12:45 - 13:00',
+        author: 'Luis Rojas',
+        title: 'Redes convolucionales y Python',
+        photos: ['Luis_Rojas.jpeg'],
+        category: 'Redes'},
+    {
+        block: '13:00 - 13:15',
+        author: 'Franco Morales',
+        title: 'Test unitarios y su papel en CI/CD',
+        photos: ['Franco_Morales.jpeg'],
+        category: 'Tests'},
+    {
+        block: '13:15 - 13:30',
+        author: 'Marco Arévalo',
+        title: 'Python aplicado a IA generativa usando Google Vertex IA',
+        photos: ['Marco_Arevalo.jpeg'],
+        category: 'Inteligencia Artificial'},
+    {
+        block: '13:30 - 14:15',
+        author: 'Mauro Perez & Carlos Pizarro',
+        title: 'Workshop Videojuegos y Python',
+        photos: ['Mauro_Perez.jpeg', 'Carlos_Pizarro.jpeg'],
+        category: 'Videojuegos'},
 
     ].forEach(obj=>{
         const row = tbody.insertRow();
@@ -29,20 +124,24 @@ export default () => {
         eventDiv.className='event'
         const titleDiv = document.createElement("div");
         titleDiv.className = 'title';
-        titleDiv.innerHTML=obj.title;
+        titleDiv.innerHTML = obj.title;
         eventDiv.appendChild(titleDiv);
         const authorDiv = document.createElement("div");
         authorDiv.className = 'author';
-        authorDiv.innerHTML=obj.author;
+        authorDiv.innerHTML = obj.author;
         eventDiv.appendChild(authorDiv);
-        const levelDiv = document.createElement("div");
-        levelDiv.className = 'level ' + obj.level;
-        levelDiv.innerHTML=obj.level;
-        eventDiv.appendChild(levelDiv);
-        const categoryDiv = document.createElement("div");
-        categoryDiv.className = 'category ' + (['Data', 'Web'].includes(obj.category) ? obj.category : 'Auto') ;
-        categoryDiv.innerHTML=obj.category;
-        eventDiv.appendChild(categoryDiv);
+        if (obj.level) {
+            const levelDiv = document.createElement("div");
+            levelDiv.className = 'level ' + obj.level;
+            levelDiv.innerHTML = obj.level;
+            eventDiv.appendChild(levelDiv);
+        }
+        if (obj.category) {
+            const categoryDiv = document.createElement("div");
+            categoryDiv.className = 'category ' + (['Data', 'Web'].includes(obj.category) ? obj.category : 'Auto') ;
+            categoryDiv.innerHTML = obj.category;
+            eventDiv.appendChild(categoryDiv);
+        }
         eventCell.appendChild(eventDiv)
     })
 }

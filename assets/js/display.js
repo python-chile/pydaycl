@@ -1,4 +1,5 @@
 const FILES =[
+    'header.html',
     'about.html',
     //'sponsors.html',
     'past_events.html',
