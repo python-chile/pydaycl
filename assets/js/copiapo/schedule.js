@@ -34,7 +34,7 @@ export default () => {
         block: '10:15 - 10:30',
         author: 'Michael Lopez & Ricardo Valdes',
         title: 'Aproximaciones al uso \'ético\' de chat gpt en el estudio',
-        photos: [],
+        photos: ['Michael_Lopez.jpeg', 'Ricardo_Valdes.jpeg'],
         category: 'Inteligencia Artificial'},
     {
         block: '10:30 - 10:45',
@@ -62,7 +62,7 @@ export default () => {
         category: 'Aprendizaje'},
     {
         block: '11:40 - 11:55',
-        author: 'Luis Rojas',
+        author: 'Andrés Ibañez',
         title: 'Ciencia de datos y python',
         photos: ['Andres_Ibanez.jpeg'],
         category: 'Datos'},
@@ -82,7 +82,7 @@ export default () => {
         block: '12:25 - 12:45',
         author: 'Lidia Moreno',
         title: 'Sql injections, ¿qué son y cómo evitarlas?',
-        photos: [],
+        photos: ['Lidia_Moreno.jpeg'],
         category: 'Base de datos'},
     {
         block: '12:45 - 13:00',

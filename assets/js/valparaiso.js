@@ -2,7 +2,7 @@ const FILES =[
     'header.html',
     'about.html',
     'location.html',
-    'schedule.html',
+    //'schedule.html',
     'gallery.html',
     '../footer.html'
     ]
