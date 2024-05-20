@@ -112,6 +112,7 @@ export default () => {
     ].forEach(obj=>{
         const row = tbody.insertRow();
         const blockCell = row.insertCell();
+        blockCell.className = "text-center py-5 fw-bolder"
         blockCell.innerHTML = obj.block;
         const eventCell = row.insertCell();
         
