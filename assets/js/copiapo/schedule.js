@@ -112,14 +112,23 @@ export default () => {
     ].forEach(obj=>{
         const row = tbody.insertRow();
         const blockCell = row.insertCell();
+        blockCell.className = "text-center py-5 fw-bolder"
         blockCell.innerHTML = obj.block;
         const eventCell = row.insertCell();
+        
         eventCell.className = "content"
+
         const profileDiv = document.createElement("div");
+        profileDiv.className = "d-flex align-items-center";
+
         const photosDiv = document.createElement("div");
+        photosDiv.className = "photo-speaker-container col-md-2";
+
         const mediaDiv = document.createElement("div");
+
         const eventDiv = document.createElement("div");
-        eventDiv.className='event';
+        eventDiv.className = 'event ml-3';
+        
         obj.photos.forEach(photo => {
             const img = document.createElement('img')
             img.className='photo-speaker';
@@ -170,7 +179,8 @@ export default () => {
             })
         profileDiv.appendChild(photosDiv)
         profileDiv.appendChild(mediaDiv)
+        profileDiv.appendChild(eventDiv)
         eventCell.appendChild(profileDiv)
-        eventCell.appendChild(eventDiv)
+        
     })
 }
