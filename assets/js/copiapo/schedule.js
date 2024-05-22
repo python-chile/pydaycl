@@ -11,7 +11,7 @@ export default () => {
         block: '09:15 - 09:30',
         author: 'Luciano Berrios & Matias Rojas',
         title: 'Python como primer lenguaje de programación',
-        photos: ['Luciano_Berrios.jpeg'],
+        photos: ['Luciano_Berrios.jpeg', 'Matias_Rojas.jpeg'],
         category: 'Aprendizaje'},
     {
         block: '09:30 - 09:45',
