@@ -323,6 +323,12 @@
     height: auto;
 }
 
+.sponsors-gold {
+    background: #E70;
+    text-align: center;
+    padding: 8px;
+}
+
 .sponsors-silver {
     background: #ccc;
     text-align: center;
@@ -331,6 +337,7 @@
 
 .sponsor {
     height: 100px;
+    max-width: 600px;
     margin: 16px;
 }
 
